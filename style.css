@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    
+
+    
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+#head{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+h1{
+    font-style:red sarif;
+
+}
+
+#head form{
+    height:3rem;
+    width: 40%;
+    display: flex;
+    border: 1px solid #9c9b9b;
+    padding: 0.4rem;
+    border-radius: 20px;
+}
+
+#head form input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+#head form input:focus{
+    outline: none;
+}
+
+#search-icon svg{
+    height: 100%;
+}
+
+#emoji-container{
+    padding: 0.625rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0.625rem;
+}
+
+.emoji-card{
+    border: 1px solid #3f3e3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    min-height: 200px;
+    width: 200px;
+    padding: 0.625rem;
+    border-radius: 0.625rem;
+    border-color: black;
+    background-color : white;
+
+    
+}
+
+.emoji{
+    font-size: 4rem;
+}
+
+.alias{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.description{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.emoji-card:hover{
+    background-color: pink;
+}
+.emoji-card:active{
+    background-color: antiquewhite;
+}
