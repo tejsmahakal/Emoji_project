@@ -1,2 +1,1 @@
-emoji project 
-using html , css and javascript
+github Link : https://github.com/tejsmahakal/Emoji_project
